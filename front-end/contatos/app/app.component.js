@@ -11,16 +11,18 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var contato_service_1 = require('../app/services/contato.service');
 var AppComponent = (function () {
-    function AppComponent() {
+    function AppComponent(contatoService) {
         this.nameApp = "Agenda - Contatos";
-        this.contatos = contato_service_1.ContatoService.getContatos();
+        this.contatoService = contatoService;
+        this.contatos = this.contatoService.getContatos();
     }
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
+            providers: [contato_service_1.ContatoService],
             templateUrl: 'app/templates/listaContatos.html'
         }), 
-        __metadata('design:paramtypes', [])
+        __metadata('design:paramtypes', [contato_service_1.ContatoService])
     ], AppComponent);
     return AppComponent;
 }());

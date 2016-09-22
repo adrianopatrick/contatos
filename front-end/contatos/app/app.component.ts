@@ -4,13 +4,16 @@ import { ContatoService } from '../app/services/contato.service'
 
 @Component({
   selector: 'my-app',
+  providers: [ContatoService],
   templateUrl: 'app/templates/listaContatos.html'
 })
 export class AppComponent { 
   nameApp : string = "Agenda - Contatos"
   contatos : Array<Contato>;
+  contatoService : ContatoService;
 
-  constructor(){
-    this.contatos = ContatoService.getContatos();
+  constructor(contatoService : ContatoService){
+    this.contatoService = contatoService;
+    this.contatos = this.contatoService.getContatos();
   }
 }

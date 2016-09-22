@@ -8,9 +8,9 @@
             <td>Telefone</td>
             <td class="hidden-xs">Sexo</td>
         </tr>
-        <tr *ngFor="let contato of contatos; let i = index" >
+        <tr *ngFor="let contato of contatos; let i = index " >
             <td>{{i + 1}}</td>
-            <td>{{contato.nome}}</td>
+            <td>{{contato.nome  | uppercase}}</td>
             <td>{{contato.telefone}}</td>
             <td class="hidden-xs">M</td>
         </tr>
