@@ -1,0 +1,19 @@
+<h1 class="jumbotron">{{nameApp}}</h1>
+<div class="panel panel-default">
+    <div class="panel-heading">Meus Contatos</div>
+    <table class="table table-striped">
+        <tr>
+            <td>#</td>
+            <td>Nome</td>
+            <td>Telefone</td>
+            <td class="hidden-xs">Sexo</td>
+        </tr>
+        <tr *ngFor="let contato of contatos; let i = index" >
+            <td>{{i + 1}}</td>
+            <td>{{contato.nome}}</td>
+            <td>{{contato.telefone}}</td>
+            <td class="hidden-xs">M</td>
+        </tr>
+    </table>
+</div>
+<button class="btn btn-primary btn-block">Novo Contato</button>
