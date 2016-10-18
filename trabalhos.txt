@@ -1,0 +1,17 @@
+Locadora de carro(andre)
+Emprestimos (lucas)
+Agenda de horário - Consultório(Fernando)
+Reserva de Sala(Arley)
+Ponto Digital(Rômulo)
+Cadastro de Projetos(Juan)
+Controle de Acesso(Débora)
+Agenda de compromissos(Samuel)
+Banco de horas(Jefferson)
+Estacionamento(James)
+Reserva de espaco-Buffet(Raquel)
+Biblioteca(sarah)
+Cadastro de associados(yuri)
+
+21 e 23 de novembro
+Trabalho - 6 pontos
+Prova - 4 pontos
