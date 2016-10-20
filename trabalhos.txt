@@ -11,6 +11,10 @@ Estacionamento(James)
 Reserva de espaco-Buffet(Raquel)
 Biblioteca(sarah)
 Cadastro de associados(yuri)
+Sistemas de Tarefas(Enilton)
+Controle de estoque(Mateus)
+mangá(Roberto)
+
 
 21 e 23 de novembro
 Trabalho - 6 pontos
